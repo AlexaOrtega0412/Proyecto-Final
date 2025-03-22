@@ -1,0 +1,27 @@
+{
+  "name": "proyecto-final",
+  "version": "1.0.0",
+  "description": "Web Components con Lit",
+  "homepage": "https://github.com/AlexaOrtega0412/Proyecto-Final#readme",
+  "bugs": {
+    "url": "https://github.com/AlexaOrtega0412/Proyecto-Final/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexaOrtega0412/Proyecto-Final.git"
+  },
+  "license": "ISC",
+  "author": "alexa.ortega y lizette.melendez",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",  
+    "start": "web-dev-server --node-resolve --open --watch"
+  },
+  "dependencies": {
+    "lit": "^3.2.1"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.4.6"
+  }
+}
