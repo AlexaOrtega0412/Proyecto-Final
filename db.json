@@ -1,0 +1,28 @@
+{
+    "users" : [
+        {
+            "user": "lizette.melendez",
+            "pass": "liz2608",
+            "name": "Lizette",
+            "cuentas": [
+                {"tipo": "BBVA Ahorro", "numero": "5412 34 14 7892 6391", "saldo": "$200", "deuda": "$150"},
+                {"tipo": "BBVA Corriente", "numero": "5412 34 14 7892 6391", "saldo": "$200", "deuda": "$150"},
+                {"tipo": "BBVA Corriente", "numero": "5412 34 14 7892 6391", "saldo": "$200", "deuda": "$150"},
+                {"tipo": "BBVA Corriente", "numero": "5412 34 14 7892 6391", "saldo": "$200", "deuda": "$150"},
+                {"tipo": "BBVA Corriente", "numero": "5412 34 14 7892 6391", "saldo": "$200", "deuda": "$150"}
+            ]
+        },
+        {
+            "user": "alexa.ortega",
+            "pass": "alexa123",
+            "name": "Alexa",
+            "cuentas": [
+                {"tipo": "BBVA Ahorro", "numero": "5412 34 14 7892 6391", "saldo": "$200", "deuda": "$150"},
+                {"tipo": "BBVA Corriente", "numero": "5412 34 14 7892 6391", "saldo": "$200", "deuda": "$150"},
+                {"tipo": "BBVA Corriente", "numero": "5412 34 14 7892 6391", "saldo": "$200", "deuda": "$150"},
+                {"tipo": "BBVA Corriente", "numero": "5412 34 14 7892 6391", "saldo": "$200", "deuda": "$150"},
+                {"tipo": "BBVA Corriente", "numero": "5412 34 14 7892 6391", "saldo": "$200", "deuda": "$150"}
+            ]
+        }
+    ]
+}
