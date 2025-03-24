@@ -1,15 +1,78 @@
 {
-    "users" : [
+    "users": [
         {
             "user": "lizette.melendez",
-            "pass": "liz2608",
+            "pass": "liz123",
             "name": "Lizette",
             "cuentas": [
-                {"tipo": "BBVA Ahorro", "numero": "5412 34 14 7892 6391", "saldo": "$200", "deuda": "$150"},
-                {"tipo": "BBVA Corriente", "numero": "5412 34 14 7892 6391", "saldo": "$200", "deuda": "$150"},
-                {"tipo": "BBVA Corriente", "numero": "5412 34 14 7892 6391", "saldo": "$200", "deuda": "$150"},
-                {"tipo": "BBVA Corriente", "numero": "5412 34 14 7892 6391", "saldo": "$200", "deuda": "$150"},
-                {"tipo": "BBVA Corriente", "numero": "5412 34 14 7892 6391", "saldo": "$200", "deuda": "$150"}
+                {
+                    "tipo": "BBVA Azul",
+                    "img": "https://storage.googleapis.com/finmatcher-mx/bbva_azul.png",
+                    "numero": "5412 34 14 7892 6391",
+                    "saldo": "$200",
+                    "deuda": "$150",
+                    "cvv": "513",
+                    "fecha": "10/26",
+                    "caracteristicas": [
+                        "Paga en miles de comercios en todo el mundo",
+                        "Ofertas de estreno al contratar",
+                        "El 9% de tus compras en Puntos BBVA"
+                    ]
+                },
+                {
+                    "tipo": "BBVA Credito Oro",
+                    "img": "https://cdn.prod.website-files.com/65df191225c92b6d572fbfcb/669e622786a2a3a04724d2c0_cc-image.png",
+                    "numero": "5412 34 14 7892 6391",
+                    "saldo": "$300",
+                    "deuda": "$150",
+                    "cvv": "951",
+                    "fecha": "09/28",
+                    "caracteristicas": [
+                        "Paga en miles de comercios en todo el mundo",
+                        "Ofertas de estreno al contratar",
+                        "El 11% de tus compras en Puntos BBVA"
+                    ]
+                },
+                {
+                    "tipo": "BBVA Platinum",
+                    "img": "https://cdn.prod.website-files.com/65df191225c92b6d572fbfcb/669e620b45c044faf3f375a6_cc-image.png",
+                    "numero": "5412 34 14 7892 6391",
+                    "saldo": "$1500",
+                    "deuda": "$150",
+                    "cvv": "267",
+                    "fecha": "11/25",
+                    "caracteristicas": [
+                        "Paga en miles de comercios en todo el mundo",
+                        "Ofertas de estreno al contratar",
+                        "El 15% de tus compras en Puntos BBVA"
+                    ]
+                },
+                {
+                    "tipo": "BBVA IPN",
+                    "img": "https://cdn.prod.website-files.com/65df191225c92b6d572fbfcb/669e620dec566626ae0dc42e_cc-image.png",
+                    "numero": "5412 34 14 7892 6391",
+                    "saldo": "$600",
+                    "deuda": "$150",
+                    "caracteristicas": [
+                        "Paga en miles de comercios en todo el mundo",
+                        "Donamos el 1.7% de tus compras al IPN.",
+                        "El 11% de tus compras en Puntos BBVA"
+                    ]
+                },
+                {
+                    "tipo": "BBVA Mi primera tarjeta",
+                    "img": "https://cdn.prod.website-files.com/65df191225c92b6d572fbfcb/67692034b0c683b2741de743_cc-image.png",
+                    "numero": "5412 34 14 7892 6391",
+                    "saldo": "$200",
+                    "deuda": "$150",
+                    "cvv": "047",
+                    "fecha": "06/25",
+                    "caracteristicas": [
+                        "Paga en miles de comercios en todo el mundo",
+                        "Úsala desde el momento de entrega",
+                        "Domicilia tus pagos recurrentes"
+                    ]
+                }
             ]
         },
         {
@@ -17,11 +80,46 @@
             "pass": "alexa123",
             "name": "Alexa",
             "cuentas": [
-                {"tipo": "BBVA Ahorro", "numero": "5412 34 14 7892 6391", "saldo": "$200", "deuda": "$150"},
-                {"tipo": "BBVA Corriente", "numero": "5412 34 14 7892 6391", "saldo": "$200", "deuda": "$150"},
-                {"tipo": "BBVA Corriente", "numero": "5412 34 14 7892 6391", "saldo": "$200", "deuda": "$150"},
-                {"tipo": "BBVA Corriente", "numero": "5412 34 14 7892 6391", "saldo": "$200", "deuda": "$150"},
-                {"tipo": "BBVA Corriente", "numero": "5412 34 14 7892 6391", "saldo": "$200", "deuda": "$150"}
+                {
+                    "tipo": "BBVA Platinum",
+                    "img": "https://cdn.prod.website-files.com/65df191225c92b6d572fbfcb/669e620b45c044faf3f375a6_cc-image.png",
+                    "numero": "5412 34 14 7892 6391",
+                    "saldo": "$1500",
+                    "deuda": "$150",
+                    "cvv": "267",
+                    "fecha": "11/25",
+                    "caracteristicas": [
+                        "Paga en miles de comercios en todo el mundo",
+                        "Ofertas de estreno al contratar",
+                        "El 15% de tus compras en Puntos BBVA"
+                    ]
+                },
+                {
+                    "tipo": "BBVA IPN",
+                    "img": "https://cdn.prod.website-files.com/65df191225c92b6d572fbfcb/669e620dec566626ae0dc42e_cc-image.png",
+                    "numero": "5412 34 14 7892 6391",
+                    "saldo": "$600",
+                    "deuda": "$150",
+                    "caracteristicas": [
+                        "Paga en miles de comercios en todo el mundo",
+                        "Donamos el 1.7% de tus compras al IPN.",
+                        "El 11% de tus compras en Puntos BBVA"
+                    ]
+                },
+                {
+                    "tipo": "BBVA Mi primera tarjeta",
+                    "img": "https://cdn.prod.website-files.com/65df191225c92b6d572fbfcb/67692034b0c683b2741de743_cc-image.png",
+                    "numero": "5412 34 14 7892 6391",
+                    "saldo": "$200",
+                    "deuda": "$150",
+                    "cvv": "047",
+                    "fecha": "06/25",
+                    "caracteristicas": [
+                        "Paga en miles de comercios en todo el mundo",
+                        "Úsala desde el momento de entrega",
+                        "Domicilia tus pagos recurrentes"
+                    ]
+                }
             ]
         }
     ]
